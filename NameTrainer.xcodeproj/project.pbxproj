@@ -7,18 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A000D6329767F3E0083933B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A000D6229767F3E0083933B /* DetailView.swift */; };
+		4A000D652976802B0083933B /* LocationFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A000D642976802B0083933B /* LocationFetcher.swift */; };
+		4A000D67297683190083933B /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A000D66297683190083933B /* Location.swift */; };
 		4A14113F297513A700134B6C /* NameTrainerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14113E297513A700134B6C /* NameTrainerApp.swift */; };
 		4A141141297513A700134B6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A141140297513A700134B6C /* ContentView.swift */; };
 		4A141143297513A800134B6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A141142297513A800134B6C /* Assets.xcassets */; };
 		4A141146297513A800134B6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A141145297513A800134B6C /* Preview Assets.xcassets */; };
+		4A14114D297513C500134B6C /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14114C297513C500134B6C /* ImagePicker.swift */; };
+		4A1411512975181C00134B6C /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A1411502975181C00134B6C /* Image.swift */; };
+		4A14115429751CA700134B6C /* NameTrainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A14115229751CA700134B6C /* NameTrainer.xcdatamodeld */; };
+		4A14115629751D1500134B6C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A14115529751D1500134B6C /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A000D6229767F3E0083933B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		4A000D642976802B0083933B /* LocationFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationFetcher.swift; sourceTree = "<group>"; };
+		4A000D66297683190083933B /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		4A14113B297513A700134B6C /* NameTrainer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NameTrainer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A14113E297513A700134B6C /* NameTrainerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameTrainerApp.swift; sourceTree = "<group>"; };
 		4A141140297513A700134B6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4A141142297513A800134B6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4A141145297513A800134B6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A14114C297513C500134B6C /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		4A1411502975181C00134B6C /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		4A14115329751CA700134B6C /* NameTrainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NameTrainer.xcdatamodel; sourceTree = "<group>"; };
+		4A14115529751D1500134B6C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +66,14 @@
 			isa = PBXGroup;
 			children = (
 				4A14113E297513A700134B6C /* NameTrainerApp.swift */,
+				4A14115229751CA700134B6C /* NameTrainer.xcdatamodeld */,
+				4A1411502975181C00134B6C /* Image.swift */,
 				4A141140297513A700134B6C /* ContentView.swift */,
+				4A000D6229767F3E0083933B /* DetailView.swift */,
+				4A000D66297683190083933B /* Location.swift */,
+				4A14114C297513C500134B6C /* ImagePicker.swift */,
+				4A000D642976802B0083933B /* LocationFetcher.swift */,
+				4A14115529751D1500134B6C /* DataController.swift */,
 				4A141142297513A800134B6C /* Assets.xcassets */,
 				4A141144297513A800134B6C /* Preview Content */,
 			);
@@ -137,6 +158,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A14114D297513C500134B6C /* ImagePicker.swift in Sources */,
+				4A14115629751D1500134B6C /* DataController.swift in Sources */,
+				4A000D652976802B0083933B /* LocationFetcher.swift in Sources */,
+				4A1411512975181C00134B6C /* Image.swift in Sources */,
+				4A000D67297683190083933B /* Location.swift in Sources */,
+				4A000D6329767F3E0083933B /* DetailView.swift in Sources */,
+				4A14115429751CA700134B6C /* NameTrainer.xcdatamodeld in Sources */,
 				4A141141297513A700134B6C /* ContentView.swift in Sources */,
 				4A14113F297513A700134B6C /* NameTrainerApp.swift in Sources */,
 			);
@@ -269,6 +297,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NameTrainer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To give some live to the people you add.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +326,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"NameTrainer/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "To give some live to the people you add.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +367,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A14115229751CA700134B6C /* NameTrainer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A14115329751CA700134B6C /* NameTrainer.xcdatamodel */,
+			);
+			currentVersion = 4A14115329751CA700134B6C /* NameTrainer.xcdatamodel */;
+			path = NameTrainer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 4A141133297513A700134B6C /* Project object */;
 }
